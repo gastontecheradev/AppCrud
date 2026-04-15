@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using AppCrud.Models;
 
 namespace AppCrud.Data
 {
@@ -8,5 +9,7 @@ namespace AppCrud.Data
         {
 
         }
+
+        public DbSet<Empleado> Empleados { get; set; }
     }
 }
