@@ -6,3 +6,4 @@
 6 - Add-Migration
 7 - Update-Database
 8 - Crear EmpleadoController.cs
+9 - Crear Vistas

@@ -12,7 +12,7 @@ namespace AppCrud.Controllers
         {
             _appDbContext = appDbContext;
         }
-
+        
         [HttpGet]
         public async Task<IActionResult> Lista()
         {

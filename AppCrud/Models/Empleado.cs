@@ -9,6 +9,7 @@ namespace AppCrud.Models
         public int IdEmpleado { get; set; }
         [MaxLength(50)]
         public string NombreCompleto { get; set; }
+        [MaxLength(50)]
         public string Correo { get; set; }
         public DateOnly FechaContrato { get; set; }
         public bool Activo { get; set; }
